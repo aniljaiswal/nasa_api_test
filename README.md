@@ -40,6 +40,8 @@ To test the API routes after running the above console command, run the followin
 php artisan serve
 ```
 
+  ### Endpoints
+
 ```
 GET /neo/hazardous
 ```
