@@ -33,6 +33,13 @@ php artisan nasa:get_neos
   - The command will show an error in case it's unable to fetch due to network issues or wrong request.
 
   ## API Routes
+
+To test the API routes after running the above console command, run the following console command first. This command will start a simple PHP development server in the root folder.
+
+```
+php artisan serve
+```
+
 ```
 GET /neo/hazardous
 ```
