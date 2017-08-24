@@ -74,6 +74,10 @@ GET neo/best-month?hazardous=(1|0)
   
 Create a `testing` database schema and to run all the tests, run `vendor/bin/phpunit`.
 
+# Security
+
+I've not protected the endpoint for keeping things simple, but I'd highly recommend securing the API from unauthorized access either using OAUTH or JWT in production scenarios.
+
 ### Note: 
 I was running short on time and so I decided to not dockerize the application. I have a very rudimentary knowledge about Dockers and how to work with them. But, I use a service called `Nanobox` which does all under the hood Docker heavy lifting for me when I'm working on my dev environment. It's proven to be very useful to me.
 
