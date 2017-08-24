@@ -11,6 +11,8 @@ The api is used to fetch and persist the Near Earth Objects's data for the last 
 
   ## Setup Laravel
   
+PHP Requirement: 7.0+
+
 As the first step after cloning the repo, copy the `.env.example` to `.env` and supply your actual database settings in the file. 
 
 After database setup, run the following commands to generate encryption key and create the database schema.
