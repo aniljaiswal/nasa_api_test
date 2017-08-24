@@ -34,6 +34,8 @@ php artisan nasa:get_neos
 
   ## API Routes
 
+The API routes are registered in the file at `routes/web.php`.
+
 To test the API routes after running the above console command, run the following console command first. This command will start a simple PHP development server in the root folder.
 
 ```
